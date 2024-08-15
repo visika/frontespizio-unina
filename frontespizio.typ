@@ -73,3 +73,18 @@
   footer: none,
 )
 
+// Qui inserisci abstract e indice
+#par(justify: true)[
+  = Abstract
+  #lorem(50)
+]
+
+#outline()
+
+// Da qui in poi la numerazione è in numeri arabi e ricomincia da uno
+#set page(numbering: "1")
+#counter(page).update(1)
+#pagebreak()
+
+= Introduzione
+

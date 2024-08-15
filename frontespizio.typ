@@ -5,6 +5,9 @@
 #let matricola = "Numero di matricola"
 #let annoaccademico = "1900/1901"
 
+// Imposta i metadati del documento
+#set document(title: title, author: candidato)
+
 #[ // Title page
   #set align(center)
 

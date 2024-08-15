@@ -88,3 +88,5 @@
 
 = Introduzione
 
+// Per un modello di tesi più completo, puoi prendere liberamente spunto dal codice nel file
+// thesis.typ della repository https://github.com/visika/tesi-magistrale

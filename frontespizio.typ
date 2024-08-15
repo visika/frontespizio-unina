@@ -11,6 +11,14 @@
 // Imposta un font tipo LaTeX
 #set text(font: "New Computer Modern", size: 12pt)
 
+#set page(
+  paper: "a4",
+  margin: (right: 3cm, left: 3.5cm, top: 4.5cm, bottom: 3.5cm),
+  numbering: "i",
+  // Imposta un footer vuoto, in modo che non appaia la numerazione nel frontespizio
+  footer: [],
+)
+
 #[ // Title page
   #set align(center)
 
@@ -56,4 +64,12 @@
   #text(1.2em, [Anno Accademico #annoaccademico])
 
   #pagebreak() ]
+
+#set page(
+  paper: "a4",
+  margin: (right: 3cm, left: 3.5cm, top: 3.5cm, bottom: 3.5cm),
+  numbering: "i",
+  // Lascia il footer secondo le impostazioni predefinite di Typst, in modo da mostrare da ora in poi la numerazione delle pagine
+  footer: none,
+)
 

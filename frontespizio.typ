@@ -8,6 +8,9 @@
 // Imposta i metadati del documento
 #set document(title: title, author: candidato)
 
+// Imposta un font tipo LaTeX
+#set text(font: "New Computer Modern", size: 12pt)
+
 #[ // Title page
   #set align(center)
 

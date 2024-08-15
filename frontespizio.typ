@@ -37,11 +37,11 @@
 
   #v(8mm)
 
-  *Dipartimento di Fisica "Ettore Pancini"*
+  *Dipartimento di XXXX "Nome Cognome"*
 
   #v(20mm)
 
-  _Laurea Magistrale in Fisica_
+  _Laurea Magistrale in YYYY_
 
   #v(5mm)
 

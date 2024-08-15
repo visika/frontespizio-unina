@@ -1,0 +1,53 @@
+#let title = "Inserire qui il titolo della tesi"
+#let relatore_1 = "Inserire qui il primo relatore"
+#let relatore_2 = "Inserire qui il secondo relatore"
+#let candidato = "Nome e cognome del candidato"
+#let matricola = "Numero di matricola"
+#let annoaccademico = "1900/1901"
+
+#[ // Title page
+  #set align(center)
+
+  #text(1.5em, [*UNIVERSITÀ DEGLI STUDI DI NAPOLI \ "FEDERICO II"*])
+
+  #v(3mm)
+
+  // University Logo
+  #image("University_Federico_II_Logo.svg", width: 25%)
+
+  #v(1cm)
+
+  *Scuola Politecnica e delle Scienze di Base*
+
+  *Area Didattica di Scienze Matematiche Fisiche e Naturali*
+
+  #v(8mm)
+
+  *Dipartimento di Fisica "Ettore Pancini"*
+
+  #v(20mm)
+
+  _Laurea Magistrale in Fisica_
+
+  #v(5mm)
+
+  #text(1.5em, title)
+
+  #v(25mm)
+
+  #grid(
+    columns: 2,
+    align: (left, right),
+    column-gutter: 1fr,
+    row-gutter: 2.5mm,
+    [*Relatori*], [*Candidato*],
+    relatore_1, candidato,
+    relatore_2, [Matr. #matricola],
+  )
+
+  #v(5.5mm)
+
+  #text(1.2em, [Anno Accademico #annoaccademico])
+
+  #pagebreak() ]
+
